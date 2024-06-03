@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Dignans</title>
+  <link href="https://fonts.googleapis.com/css2?family=Congenial+Black&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<header>
+  <h1>Dignans</h1>
+  <img src="logo.PNG" alt="Delicious Food">
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="register.html">Register</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="special-offers.html">Special Offers</a></li>
+  </ul>
+</nav>
+<main class="container">
+  <section id="login">
+    <div class="login-box">
+    <h2>Login</h2>
+
+    <form onsubmit="login(event)">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"
+             required><br>
+      <button class="button" type="submit">Login</button>
+      <br>
+      <img src="login2.jpg" alt="Delicious Food">
+    </form>
+    </div>
+  </section>
+</main>
+<script src="scripts.js"></script>
+</body>
+</html>
